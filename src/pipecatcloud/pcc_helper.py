@@ -1,9 +1,3 @@
-#
-# Copyright (c) 2025, Daily
-#
-# SPDX-License-Identifier: BSD 2-Clause License
-#
-
 """
 Pipecat Cloud SDK Helper - Programmatic interface to Pipecat Cloud API.
 
