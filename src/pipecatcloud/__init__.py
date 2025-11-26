@@ -25,6 +25,7 @@ from pipecatcloud.exception import (
     Error,
     InvalidError,
 )
+from pipecatcloud.pcc_helper import PipecatHelper
 from pipecatcloud.session import Session, SessionParams
 from pipecatcloud.smallwebrtc.session_manager import SmallWebRTCSessionManager
 
@@ -43,6 +44,8 @@ __all__ = [
     "Session",
     "SessionParams",
     "SmallWebRTCSessionManager",
+    # SDK Helper
+    "PipecatHelper",
     # Exception classes
     "AgentNotHealthyError",
     "AgentStartError",
